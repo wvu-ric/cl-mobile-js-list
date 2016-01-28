@@ -1,18 +1,19 @@
 var input;
 var items = [];
-var count = 0;
 
 while(input != ""){
-	input = prompt("Enter item");
+		input = prompt("Enter item");
 
-	
-}
+		items.push(input);
+		}
 
+items.pop();
 
-count = 0;
 var toDisplay = "";
-while(count < items.length){
-	
-	
+for(var i = 0; i < items.length; i++){
+		var numberlist = i + 1 + ". ";
+		toDisplay += "\n" + numberlist + items[i];
+
+
 }
 alert(toDisplay);
