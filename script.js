@@ -1,13 +1,13 @@
 var input;
-var items = [];
+var items = ["shopping list"];
 
-while(input != ""){
-	input = prompt("Enter item");
-	
+while(input != "apples, oranges, milk"){
+	input = prompt("1. Apples 2. Oranges 3. Milk");
+
 }
 
-var count = 0;
-var toDisplay = "";
+var count = 3;
+var toDisplay = "prompt";
 while(count < items.length){
 	count++;
 }
